@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Marketing Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><div class="prima-logo"><img src="images/primathink-logo-with-mask.png"></div></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="payment.html">Pay Here</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="testimonial.html">Our client</a></li>
+                     <li><a href="task.html">Tell your need</a></li>
+                    <li><a href="review.html">Your feedback</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+    </section>
+
+    <!-- ------- about us content --------  -->
+
+    <section class="about-us">
+        <div class="about-row">
+            <div class="about-col">
+                <h1>Why to choose PrimaThink</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore assumenda culpa accusamus provident sint praesentium voluptatibus aliquid sapiente natus voluptates adipisci nisi debitis error eos facere eaque reprehenderit neque excepturi, consectetur sunt esse consequatur soluta. Rem quas et quos eaque, autem, cum hic alias harum veniam accusantium ea quia?</p>
+                <a href="" class="hero-btn red-btn">EXPLORE</a>
+            </div>
+            <div class="about-col">
+                <img src="images/myabout.png">
+            </div>
+        </div>
+    </section>
+
+    <!-- ------- Footer ------ -->
+
+    <section class="footer">
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, esse saepe magnam excepturi architecto odio tempore aspernatur.Tempore optio nihil, quia autem cupiditate <br>aspernatur quisquam deserunt dolorem enim fugiat doloremque dicta unde, sed ex.</p>
+        <div class="nav-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>All Rights Reserved &copy; 2022</p>
+    </section>
+
+    <!---------- Javascript for Toggle Menu --------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
